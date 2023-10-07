@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+dnas = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
+
+#dnas = ['ATGCCCGGCCCGGCGCGTGCTAGCAATACGATAAACCGGATATATATCGATATGGGCCC']
+
+
+dna_tuple = [tuple(x) for x in dnas]
+
+print(dna_tuple)
+
+
+###FALTA FAZER AINDA
+
