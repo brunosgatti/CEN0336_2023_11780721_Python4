@@ -1,32 +1,20 @@
 >>> list = [100, 2, 15, 22, 95, 33, 2, 27, 72, 15, 52]
 >>> list_iterator = iter(list)
->>> next(list_iterator)
+>>> for x in list:
+...     next(list_iterator)
+... 
 100
->>> 
->>> next(list_iterator)
 2
->>> next(list_iterator)
 15
->>> next(list_iterator)
 22
->>> next(list_iterator)
 95
->>> next(list_iterator)
 33
->>> next(list_iterator)
 2
->>> next(list_iterator)
 27
->>> next(list_iterator)
 72
->>> next(list_iterator)
 15
->>> next(list_iterator)
 52
->>> next(list_iterator)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-StopIteration
+
 
 >>> for x in list:
 ...     if x % 2 == 0:
