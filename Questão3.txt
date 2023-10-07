@@ -1,0 +1,16 @@
+>>> lista = ['segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo']
+>>> copia_lista = lista
+>>> print(lista)
+['segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo']
+>>> copia_lista.append('sabingo')
+>>> print(lista)
+['segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado', 'domingo', 'sabingo']
+
+>>> lista2 = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio']
+>>> copia_lista2 = lista2.copy()
+>>> print(lista2)
+['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio']
+>>> copia_lista2.append('Junho')
+>>> print(lista2)
+['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio']
+
