@@ -1,0 +1,25 @@
+>>> favs = ['limão', 'banana', 'abacaxi', 'mamão', 'tangerina']
+>>> print(favs)
+['limão', 'banana', 'abacaxi', 'mamão', 'tangerina']
+>>> print(favs[2])
+abacaxi
+>>> favs[2] = 'Gimme chocolate!!'
+>>> print(favs)
+['limão', 'banana', 'Gimme chocolate!!', 'mamão', 'tangerina']
+>>> favs.append('maçã')
+>>> favs.insert(0, 'uva')
+>>> favs.insert(5, 'manga')
+>>> print(favs)
+['uva', 'limão', 'banana', 'Gimme chocolate!!', 'mamão', 'manga', 'tangerina', 'maçã']
+>>> favs.pop()
+'maçã'
+>>> favs.pop(1)
+'limão'
+>>> favs.pop(3)
+'mamão'
+>>> print(favs)
+['uva', 'banana', 'Gimme chocolate!!', 'manga', 'tangerina']
+>>> text = ['Socorram-me', 'subi', 'no', 'ônibus', 'em', 'Marrocos']
+>>> print(' '.join(text))
+Socorram-me subi no ônibus em Marrocos
+
