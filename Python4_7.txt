@@ -1,0 +1,41 @@
+>>> list
+[100, 2, 15, 22, 95, 33, 2, 27, 72, 15, 52]
+>>> list_sorted = sorted(list)
+>>> list_sorted
+[2, 2, 15, 15, 22, 27, 33, 52, 72, 95, 100]
+>>> list_sorted_iterator = iter(list_sorted)
+>>> for x in list_sorted:
+...     next(list_sorted_iterator)
+... 
+2
+2
+15
+15
+22
+27
+33
+52
+72
+95
+100
+
+
+>>> sum_odd = 0
+>>> for x in list_sorted:
+...     if x % 2 == 1:
+...             sum_odd += x
+... 
+>>> print('Sum of odds:', sum_odd)
+Sum of odds: 185
+
+>>> sum_even = 0
+>>> for x in list_sorted:
+...     if x % 2 == 0:
+...             sum_even += x
+... 
+>>> print('Sum of even numbers:', sum_even)
+Sum of even numbers: 250
+
+
+
+
